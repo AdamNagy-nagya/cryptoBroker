@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_back_content_desc">Navigate back</string>
+
+    <string name="home_title">COINS</string>
+
+    <string name="details_price">Price</string>
+    <string name="details_change">Change (24hr)</string>
+    <string name="details_market_cap">Market Cap</string>
+    <string name="details_volume">Volume (24hr)</string>
+    <string name="details_supply">Supply</string>
+</resources>
