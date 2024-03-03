@@ -15,7 +15,7 @@ import hu.nagya.cryptobroker.domain.models.CryptoCurrency
 import hu.nagya.cryptobroker.theme.R
 import hu.nagya.cryptobroker.theme.composeable.TopAppBar
 import hu.nagya.cryptobroker.features.home.components.CryptoCurrencyList
-import hu.nagya.cryptobroker.features.home.preview.CryptoCurrencyPreviewProvider
+import hu.nagya.cryptobroker.features.preview.CryptoCurrencyPreviewProvider
 import hu.nagya.cryptobroker.theme.AppColors
 import hu.nagya.cryptobroker.theme.composeable.LoadingHandler
 import kotlinx.collections.immutable.ImmutableList

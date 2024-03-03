@@ -36,11 +36,11 @@ abstract class BaseScreenViewModel : ViewModel() {
             initialValue
         )
 
-    protected fun showFullScreenLoader() {
+    private fun showFullScreenLoader() {
         fullScreenLoadingCounter.value += 1
     }
 
-    protected fun hideFullScreenLoader() {
+    private fun hideFullScreenLoader() {
         fullScreenLoadingCounter.value = (fullScreenLoadingCounter.value - 1).coerceAtLeast(0)
     }
 }

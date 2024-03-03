@@ -14,4 +14,3 @@ val dataModule = module {
 
     single<CryptoCurrencyHolder> { CryptoCurrencyHolder() }
 }
-

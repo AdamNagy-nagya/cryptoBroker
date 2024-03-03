@@ -61,8 +61,8 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.retrofit.core)
     implementation(libs.retrofit.moshi)
-
     implementation(libs.koin.android)
+
     implementation(project(":data"))
     implementation(project(":features"))
     implementation(project(":theme"))

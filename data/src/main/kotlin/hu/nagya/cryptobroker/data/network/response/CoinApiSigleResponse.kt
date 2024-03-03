@@ -7,7 +7,6 @@ data class CoinApiSingleResponse(
     @Json(name = "timestamp") val timestamp: Long
 )
 
-
 data class CoinApiListResponse(
     @Json(name = "data") val data: List<CryptoCurrencyApiModel>,
     @Json(name = "timestamp") val timestamp: Long

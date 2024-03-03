@@ -25,7 +25,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import hu.nagya.cryptobroker.domain.models.CryptoCurrency
-import hu.nagya.cryptobroker.features.home.preview.CryptoCurrencyPreviewProvider
+import hu.nagya.cryptobroker.features.preview.CryptoCurrencyPreviewProvider
 import hu.nagya.cryptobroker.features.utils.displayChangePercent
 import hu.nagya.cryptobroker.features.utils.displayChangePercentColor
 import hu.nagya.cryptobroker.features.utils.displayPrice
@@ -82,6 +82,7 @@ private fun CurrencyItem(
             modifier = Modifier.size(56.dp),
             contentScale = ContentScale.Fit
         )
+
         Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
             Row(
                 modifier = Modifier.fillMaxWidth(),

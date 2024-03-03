@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Divider
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -26,7 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import hu.nagya.cryptobroker.domain.models.CryptoCurrency
 import hu.nagya.cryptobroker.theme.R
-import hu.nagya.cryptobroker.features.home.preview.CryptoCurrencyPreviewProvider
+import hu.nagya.cryptobroker.features.preview.CryptoCurrencyPreviewProvider
 import hu.nagya.cryptobroker.features.utils.displayChangePercent
 import hu.nagya.cryptobroker.features.utils.displayChangePercentColor
 import hu.nagya.cryptobroker.features.utils.displayExchangeVolume
@@ -118,7 +119,7 @@ private fun CurrencyData(
             valueColor = cryptoCurrency.displayChangePercentColor
         )
 
-        Divider(
+        HorizontalDivider(
             modifier = Modifier
                 .padding(vertical = 8.dp)
                 .fillMaxWidth(),

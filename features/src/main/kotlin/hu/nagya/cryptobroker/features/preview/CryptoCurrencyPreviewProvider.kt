@@ -1,4 +1,4 @@
-package hu.nagya.cryptobroker.features.home.preview
+package hu.nagya.cryptobroker.features.preview
 
 import androidx.compose.ui.tooling.preview.datasource.CollectionPreviewParameterProvider
 import hu.nagya.cryptobroker.domain.models.CryptoCurrency
