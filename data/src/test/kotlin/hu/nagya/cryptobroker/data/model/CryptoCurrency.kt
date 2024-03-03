@@ -1,4 +1,4 @@
-package hu.nagya.cryptobroker.model
+package hu.nagya.cryptobroker.data.model
 
 import hu.nagya.cryptobroker.domain.models.CryptoCurrency
 import hu.nagya.cryptobroker.domain.models.CurrencySymbolType

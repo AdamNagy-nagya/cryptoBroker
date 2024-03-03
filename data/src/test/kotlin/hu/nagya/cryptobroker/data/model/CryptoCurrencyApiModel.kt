@@ -1,4 +1,4 @@
-package hu.nagya.cryptobroker.model
+package hu.nagya.cryptobroker.data.model
 
 import hu.nagya.cryptobroker.data.network.response.CryptoCurrencyApiModel
 
