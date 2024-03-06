@@ -9,7 +9,7 @@ internal fun Double.formatAbbreviated(): String =
         val suffix = charArrayOf('K', 'M', 'B', 'T', 'Q')
         val value = abs(this)
         var index = 0
-        var formattedValue = value
+        var formattedValue = value /= ONE_THOUSAND
 
         while (formattedValue >= ONE_THOUSAND && index < suffix.size - 1) {
             formattedValue /= ONE_THOUSAND
